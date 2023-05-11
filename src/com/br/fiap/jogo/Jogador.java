@@ -2,14 +2,10 @@ package com.br.fiap.jogo;
 
 public abstract class Jogador {
 	
-	private String nome = "anonimo";
+	private String nome;
 	private int xp = 100;
 	private int hp = 100;
 	private boolean envenenado;
-	
-	public Jogador() {
-		System.out.println("Criando jogador " + nome);
-	}
 
 	public Jogador(String nome) {
 		System.out.println("Criando jogador " + nome);
