@@ -4,7 +4,7 @@ public class Mago extends Jogador implements Elemento {
 
     private int mp;
 
-    public Mago() {
+    public Mago(String nome) {
         super();
         this.mp = 100;
     }

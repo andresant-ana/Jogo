@@ -2,7 +2,7 @@ package com.br.fiap.jogo;
 
 public class Guerreiro extends Jogador implements Elemento {
 
-    public Guerreiro() {
+    public Guerreiro(String nome) {
         super();
     }
 
